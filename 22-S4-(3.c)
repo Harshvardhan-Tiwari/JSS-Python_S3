@@ -1,0 +1,12 @@
+a = int (input("Enter the value of first Number:  "))
+b = int (input("Enter the value of second Number: "))
+
+print("\n Value of Numbers before swapping: ")
+print("Value of First Number:",a)
+print("Value of Second Number:",b)
+
+a,b = b,a
+
+print("\n Value of Numbers before swapping: ")
+print("Value of First Number:",a)
+print("Value of Second Number:",b)
