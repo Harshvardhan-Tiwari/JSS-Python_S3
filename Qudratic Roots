@@ -1,0 +1,26 @@
+import math
+
+print("Enter the quadratic equation in the following format: Ax^2 + Bx + C = 0 ")
+
+a = int(input("Enter value of A: "))
+b = int(input("Enter value of B: "))
+c = int(input("Enter value of C: "))
+
+D = (b*b) - (4*a*c)
+
+if D > 0 :
+    r1 = ( -b + math.sqrt(D) ) / (2*a)
+    r2 = ( -b - math.sqrt(D) ) / (2*a)
+
+    print("\nRoots are Real and Distinct")
+    print("First Root:", r1)
+    print("Second Root:", r2)
+
+elif D == 0 :
+    x = -b / (2*a)
+
+    print("\nRoots are Real and Equal")
+    print("Root:", x)
+
+else:
+    print("\nRoots are Imaginary")
