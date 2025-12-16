@@ -1,0 +1,12 @@
+L = int(input("Enter Nuber of layers: "))
+
+for i in range (0,L+1):
+    
+    for s in range(L-i):
+        print(" " , end='' )
+        
+    
+    for j in range(i):
+        print("* " , end='')
+        
+    print(" ")    
