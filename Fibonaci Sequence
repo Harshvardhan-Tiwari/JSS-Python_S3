@@ -1,0 +1,11 @@
+n = int(input("Enter Number Of terms : "))
+
+t1 = 0
+t2 = 1
+
+while n>0:
+    print(t1)
+    nextTerm = t1 + t2  
+    t1=t2
+    t2=nextTerm
+    n=n-1
