@@ -1,0 +1,6 @@
+# Upper hollow part
+for i in range(4):
+    print("*", end="")
+    if i > 0:
+        print(" " * i, end="*")
+    print()
