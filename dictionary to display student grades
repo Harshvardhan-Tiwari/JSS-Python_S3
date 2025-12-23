@@ -1,0 +1,9 @@
+SG = {
+    "Harsh" : "A",
+    "Surya" : "A+",
+    "Ansh " :  "B",
+    "Varun" : "F"
+}
+
+for name , grade in SG.items():
+    print(name , ":" , grade)
