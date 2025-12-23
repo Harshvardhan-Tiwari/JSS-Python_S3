@@ -1,0 +1,10 @@
+lines = []
+
+while True:
+    s = input("Enter a Line (To Exit Press '0'):  ")
+    if s == '0' :
+        break
+    lines.append(s)
+        
+for i in lines:
+    print(i.upper())
